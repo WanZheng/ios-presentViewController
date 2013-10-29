@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18187A79E6F54983A38514F6 /* UIViewController+ParentPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18187BA9D57FABA52AD9A499 /* UIViewController+ParentPresent.m */; };
 		8B4E654C181F4D7100973CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E654B181F4D7100973CA8 /* Foundation.framework */; };
 		8B4E654E181F4D7100973CA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E654D181F4D7100973CA8 /* CoreGraphics.framework */; };
 		8B4E6550181F4D7100973CA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E654F181F4D7100973CA8 /* UIKit.framework */; };
@@ -14,13 +15,14 @@
 		8B4E6558181F4D7100973CA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4E6557181F4D7100973CA8 /* main.m */; };
 		8B4E655C181F4D7100973CA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4E655B181F4D7100973CA8 /* AppDelegate.m */; };
 		8B4E655F181F4D7100973CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4E655D181F4D7100973CA8 /* Main.storyboard */; };
-		8B4E6562181F4D7100973CA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4E6561181F4D7100973CA8 /* ViewController.m */; };
+		8B4E6562181F4D7100973CA8 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4E6561181F4D7100973CA8 /* ParentViewController.m */; };
 		8B4E6564181F4D7100973CA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4E6563181F4D7100973CA8 /* Images.xcassets */; };
 		8B4E656B181F4D7100973CA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E656A181F4D7100973CA8 /* XCTest.framework */; };
 		8B4E656C181F4D7100973CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E654B181F4D7100973CA8 /* Foundation.framework */; };
 		8B4E656D181F4D7100973CA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E654F181F4D7100973CA8 /* UIKit.framework */; };
 		8B4E6575181F4D7100973CA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B4E6573181F4D7100973CA8 /* InfoPlist.strings */; };
 		8B4E6577181F4D7100973CA8 /* test_presentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4E6576181F4D7100973CA8 /* test_presentTests.m */; };
+		8B4E6582181F4DB100973CA8 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4E6581181F4DB100973CA8 /* ChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18187123513B02105FA59D27 /* UIViewController+ParentPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ParentPresent.h"; sourceTree = "<group>"; };
+		18187BA9D57FABA52AD9A499 /* UIViewController+ParentPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ParentPresent.m"; sourceTree = "<group>"; };
 		8B4E6548181F4D7100973CA8 /* test-present.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-present.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4E654B181F4D7100973CA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B4E654D181F4D7100973CA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +49,16 @@
 		8B4E655A181F4D7100973CA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B4E655B181F4D7100973CA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8B4E655E181F4D7100973CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B4E6560181F4D7100973CA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B4E6561181F4D7100973CA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B4E6560181F4D7100973CA8 /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		8B4E6561181F4D7100973CA8 /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
 		8B4E6563181F4D7100973CA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B4E6569181F4D7100973CA8 /* test-presentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-presentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4E656A181F4D7100973CA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8B4E6572181F4D7100973CA8 /* test-presentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-presentTests-Info.plist"; sourceTree = "<group>"; };
 		8B4E6574181F4D7100973CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B4E6576181F4D7100973CA8 /* test_presentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_presentTests.m; sourceTree = "<group>"; };
+		8B4E6580181F4DB100973CA8 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		8B4E6581181F4DB100973CA8 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +121,14 @@
 				8B4E655A181F4D7100973CA8 /* AppDelegate.h */,
 				8B4E655B181F4D7100973CA8 /* AppDelegate.m */,
 				8B4E655D181F4D7100973CA8 /* Main.storyboard */,
-				8B4E6560181F4D7100973CA8 /* ViewController.h */,
-				8B4E6561181F4D7100973CA8 /* ViewController.m */,
+				8B4E6560181F4D7100973CA8 /* ParentViewController.h */,
+				8B4E6561181F4D7100973CA8 /* ParentViewController.m */,
 				8B4E6563181F4D7100973CA8 /* Images.xcassets */,
 				8B4E6552181F4D7100973CA8 /* Supporting Files */,
+				8B4E6580181F4DB100973CA8 /* ChildViewController.h */,
+				8B4E6581181F4DB100973CA8 /* ChildViewController.m */,
+				18187BA9D57FABA52AD9A499 /* UIViewController+ParentPresent.m */,
+				18187123513B02105FA59D27 /* UIViewController+ParentPresent.h */,
 			);
 			path = "test-present";
 			sourceTree = "<group>";
@@ -200,7 +210,7 @@
 				ORGANIZATIONNAME = WilsonWan;
 				TargetAttributes = {
 					8B4E6568181F4D7100973CA8 = {
-						TestTargetID = 8B4E6547181F4D7100973CA8;
+						TestTargetID = 8B4E6547181F4D7100973CA8 /* test-present */;
 					};
 				};
 			};
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4E6562181F4D7100973CA8 /* ViewController.m in Sources */,
+				8B4E6562181F4D7100973CA8 /* ParentViewController.m in Sources */,
 				8B4E655C181F4D7100973CA8 /* AppDelegate.m in Sources */,
 				8B4E6558181F4D7100973CA8 /* main.m in Sources */,
+				8B4E6582181F4DB100973CA8 /* ChildViewController.m in Sources */,
+				18187A79E6F54983A38514F6 /* UIViewController+ParentPresent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

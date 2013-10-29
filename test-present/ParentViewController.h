@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ParentViewController.h
 //  test-present
 //
 //  Created by WilsonWan on 13-10-29.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-+ (BOOL)animated;
+@interface ParentViewController : UIViewController
 
 @end
